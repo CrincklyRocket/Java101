@@ -20,7 +20,7 @@ public class KDVTutariHesaplayanProgram {
         tutar = inp.nextInt();
 
         boolean deger = tutar < 1000;
-        String metin = (deger) ? ("KDV oranı ="+ (tutar * ilkOran)) : ("KDV oranı =" + (tutar * ikinciOran));
+        String metin = (deger) ? ("KDV tutarı ="+ (tutar * ilkOran)) : ("KDV tutarı =" + (tutar * ikinciOran));
        
         System.out.println(metin);
     }
