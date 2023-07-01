@@ -27,7 +27,7 @@ public class manavKasaProgramı {
         patlicanK = inp.nextDouble();
 
         toplam = (armutB*armutK)+(elmaB*elmaK)+(domatesB*domatesK)+(muzB*muzK)+(patlicanK*patlicanB);
-        System.out.println("Toplam Tutar = " + toplam+" TL");
+        System.out.println("Toplam Tutar = " + toplam +" TL");
 
 
         
