@@ -9,13 +9,13 @@ public class hesapMakinesi {
         int islem; 
 
         Scanner inp = new Scanner(System.in);
-        System.out.println("İlk sayıyı girin = ");
+        System.out.println("İlk sayıyı giriniz = ");
         n1 = inp.nextDouble();
         
-        System.out.println("İkinci sayıyı girin = ");
+        System.out.println("İkinci sayıyı giriniz = ");
         n2 = inp.nextDouble();
         
-        System.out.println("1: Toplama\n2: Çıkarma\n3: Çarpma\n4: Bölme\nYapmak istediğiniz işlemi seçin =");
+        System.out.println("1: Toplama\n2: Çıkarma\n3: Çarpma\n4: Bölme\nYapmak istediğiniz işlemi seçiniz =");
         islem = inp.nextInt();
 
         switch(islem){
