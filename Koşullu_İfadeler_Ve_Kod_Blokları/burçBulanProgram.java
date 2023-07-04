@@ -6,7 +6,10 @@ public class burçBulanProgram {
     public static void main(String[] args) {
         
         int ay, gün;
+        String burc = " "; 
+
         Scanner inp = new Scanner(System.in);
+
         System.out.println("1: Ocak\n2: Şubat\n3: Mart\n4: Nisan\n5: Mayıs\n6: Haziran\n7: Temmuz\n8: Ağustos\n9: Eylül\n10: Ekim\n11: Kasım\n12: Aralık\nDoğduğunuz ayı giriniz ");
         ay = inp.nextInt();
          if (ay < 1 || ay > 12 ){
@@ -21,103 +24,94 @@ public class burçBulanProgram {
             System.exit(ay);
          }
 
+
+
+
         if (ay == 1) {
             if (gün >= 1 && gün<=21 ){
-            System.out.println("Oğlak burcusunuz!");
-            System.exit(gün);
+            burc = "Oğlak";
             } else if (gün > 21 )  {
-                System.out.println("Kova burcusunuz!");}
-                System.exit(gün);
-        }
+                burc = "Kova";
+                }
+        }        
         if (ay == 2) {
             if (gün<=19 && gün >= 1){
-            System.out.println("Kova burcusunuz!");
-            System.exit(gün);
+            burc = "Kova";
             } else {
-                System.out.println("Balık burcusunuz!");}
-                System.exit(gün);
-        }
+                burc = "Balık";
+                }
+        }        
         if (ay == 3) {
             if (gün<=20 && gün >= 1){
-            System.out.println("Balık burcusunuz!");
-            System.exit(gün);
+            burc = "Balık";
             } else {
-                System.out.println("Koç burcusunuz!");}
-                System.exit(gün);
+                burc = "Koç";
+                }
         }
         if (ay == 4) {
             if (gün<=20 && gün >= 1){
-            System.out.println("Koç burcusunuz!");
-            System.exit(gün);
+            burc = "Koç";
             } else {
-                System.out.println("Boğa burcusunuz!");}
-                System.exit(gün);
+                burc = "Boğa";
+                }
         }
         if (ay == 5) {
             if (gün<=21 && gün >= 1){
-            System.out.println("Boğa burcusunuz!");
-            System.exit(gün);
+            burc = "Boğa";
             } else {
-                System.out.println("İkizler burcusunuz!");}
-                System.exit(gün);
+                burc = "İkizler";
+                }
         }
         if (ay == 6) {
             if (gün<=22 && gün >= 1){
-            System.out.println("İkizler burcusunuz!");
-            System.exit(gün);
+            burc = "İkizler";
             } else {
-                System.out.println("Yengeç burcusunuz!");}
-                System.exit(gün);
+                burc = "Yengeç";
+                }
         }
         if (ay == 7) {
             if (gün<=22 && gün >= 1){
-            System.out.println("Yengeç burcusunuz!");
-            System.exit(gün);
+            burc = "Yengeç";
             } else {
-                System.out.println("Aslan burcusunuz!");}
-                System.exit(gün);
+                burc = "Aslan";
+                }
         }
         if (ay == 8) {
             if (gün<=22 && gün >= 1){
-            System.out.println("Aslan burcusunuz!");
-            System.exit(gün);
+            burc = "Aslan";
             } else {
-                System.out.println("Başak burcusunuz!");}
-                System.exit(gün);
+                burc = "Başak";
+                }
         }
         if (ay == 9) {
             if (gün<=22 && gün >= 1){
-            System.out.println("Başak burcusunuz!");
-            System.exit(gün);
+            burc = "Başak";
             } else {
-                System.out.println("Terazi burcusunuz!");}
-                System.exit(gün);
+                burc = "Terazi";
+            }
         }
         if (ay == 10) {
             if (gün<=22 && gün >= 1){
-            System.out.println("Terazi burcusunuz!");
-            System.exit(gün);
+            burc = "Terazi";
             } else {
-                System.out.println("Akrep burcusunuz!");}
-                System.exit(gün);
+                burc = "Akrep";
+                }
         }
         if (ay == 11) {
             if (gün<=21 && gün >= 1){
-            System.out.println("Akrep burcusunuz!");
-            System.exit(gün);
+            burc = "Akrep";
             } else {
-                System.out.println("Yay burcusunuz!");}
-                System.exit(gün);
+                burc = "Yay";
+                }
         }
         if (ay == 12) {
             if (gün<=21 && gün >= 1){
-            System.out.println("Yay burcusunuz!");
-            System.exit(gün);
+            burc = "Yay";
             } else {
-                System.out.println("Oğlak burcusunuz!");}
-                System.exit(gün);
-        } 
+                burc = "Oğlak";
+                } 
         }
-         
+         System.out.println("Burcunuz: " + burc);
 }   
+}
 
